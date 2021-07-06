@@ -16,7 +16,7 @@ class _PaymentPageState extends State<PaymentPage> {
       body: Center(
         child: Text(
           PaymentRoute().microAppName,
-          style: TextStyle(fontSize: 18),
+          style: TextStyle(fontSize: 18, color: Colors.red),
         ),
       ),
     );
